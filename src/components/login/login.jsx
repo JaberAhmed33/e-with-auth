@@ -1,10 +1,10 @@
 import FormLogin from "./FormLogin";
-import frame from "../../../public/Frame.svg";
+import frame from "../../../public/Frame.png";
 
 function Login() {
 
   return (
-    <div className="flex min-h-screen relative items-center justify-center h-screen font-abee">
+    <div className="flex max-h-screen overflow-clip relative items-center justify-center h-screen font-abee">
        {/* Glow 1 */}
       <div className="absolute -top-[20%] left-[30%] w-96 h-96 bg-[#8505c6] rounded-full opacity-40 blur-[120px] shadow-[0_0_80px_#c052f7] pointer-events-none"></div>
 

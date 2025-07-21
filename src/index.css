@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Bebas+Neue&family=Boldonse&display=swap');
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --main-color: oklch(70.4% 0.046 257.417);
+  --font-bold: 'Boldonse';
+  --font-bebas: 'Bebas Neue';
+  --font-abee: 'ABeeZee';
+}
+
+.outer-glow {
+    box-shadow: 0 0 3px 1px #CEB7FF;
+}
+

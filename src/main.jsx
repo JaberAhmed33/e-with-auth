@@ -11,7 +11,7 @@ import Cart from './components/products/cartSec/Cart.jsx';
 import Login from './components/login/login.jsx';
 import { Toaster } from 'react-hot-toast';
 import CheckWrapper from './components/auth/CheckWrapper.js';
-import ProductsSection from './components/products/productsSection.jsx';
+import ProductsSection from './components/products/ProductsSection.jsx';
 import ProductSection from './components/products/productById/ProductSection.jsx';
 
 let router = createBrowserRouter([

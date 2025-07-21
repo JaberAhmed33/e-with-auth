@@ -5,15 +5,14 @@ import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from "react-router";
 import MainSection from './components/main/MainSection.jsx';
 import { ThemeProvider } from './context/ThemeProvider.jsx';
-import ErrorBoundary from './components/error/ErrorBoundary.jsx';
 import RouteErrorPage from './components/error/RouteErrorPage.jsx';
 import Termsandcondtions from './components/Termsandcondtions.jsx';
-import ProductsSection from './components/products/productsSection.jsx';
-import ProductSection from './components/products/productById/ProductSection.jsx';
 import Cart from './components/products/cartSec/Cart.jsx';
 import Login from './components/login/login.jsx';
 import { Toaster } from 'react-hot-toast';
 import CheckWrapper from './components/auth/CheckWrapper.js';
+import ProductsSection from './components/products/productsSection.jsx';
+import ProductSection from './components/products/productById/ProductSection.jsx';
 
 let router = createBrowserRouter([
   {
